@@ -74,7 +74,7 @@ else
 {
 echo '
 <div align="center">
-<form action="oldfood.php" method="post" onsubmit="return oldfoodvalidate()">
+<form action="old_food.php" method="post" onsubmit="return old_foodvalidate()">
 SELECT FOOD TYPE:
 <select name="type">';
 		$q="SELECT DISTINCT food_type FROM food_items";
